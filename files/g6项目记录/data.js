@@ -1,0 +1,7 @@
+﻿$axure.loadCurrentPage(
+(function() {
+    var _ = function() { var r={},a=arguments; for(var i=0; i<a.length; i+=2) r[a[i]]=a[i+1]; return r; }
+    var _creator = function() { return _(b,c,d,e,f,g,h,g,i,[j],k,_(l,m,n,o,p,q,r,_(),s,_(t,u,v,w,x,_(y,z,A,B),C,null,D,E,F,E,G,H,I,null,J,K,L,M,N,O,P,K),Q,_(),R,_(S,_(T,U,V,[_(T,W,X,g,Y,[_(Z,ba,T,bb,bc,_(bd,be,bf,_(bg,bh,bi,bj,bk,[]),bl,g),bm,bn)])])),bo,_(bp,[])),bq,_(),br,_());}; 
+var b="url",c="g6项目记录.html",d="generationDate",e=new Date(1501746023879.76),f="isCanvasEnabled",g=false,h="isAdaptiveEnabled",i="variables",j="OnLoadVariable",k="page",l="packageId",m="23773fb4bfe04e7abcbeb0f6190ff994",n="type",o="Axure:Page",p="name",q="G6项目记录",r="notes",s="style",t="baseStyle",u="627587b6038d43cca051c114ac41ad32",v="pageAlignment",w="center",x="fill",y="fillType",z="solid",A="color",B=0xFFFFFFFF,C="image",D="imageHorizontalAlignment",E="near",F="imageVerticalAlignment",G="imageRepeat",H="auto",I="favicon",J="sketchFactor",K="0",L="colorStyle",M="appliedColor",N="fontName",O="Applied Font",P="borderWidth",Q="adaptiveStyles",R="interactionMap",S="onLoad",T="description",U="OnPageLoad",V="cases",W="打开WP",X="isNewIfGroup",Y="actions",Z="action",ba="linkWindow",bb="Open http://10.58.174.134/wordpress in Current Window",bc="target",bd="targetType",be="webUrl",bf="urlLiteral",bg="exprType",bh="stringLiteral",bi="value",bj="http://10.58.174.134/wordpress",bk="stos",bl="includeVariables",bm="linkType",bn="current",bo="diagram",bp="objects",bq="masters",br="objectPaths";
+return _creator();
+})());

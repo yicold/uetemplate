@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Undo and Redo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/undo_and_redo/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/undo_and_redo/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u45410" class="ax_default box_2">
+        <div id="u45410_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45411" class="text">
+          <p><span>Undo and Redo 撤销和重做</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u45412" class="ax_default line">
+        <img id="u45412_img" class="img " src="images/修改记录🏷/u123.png"/>
+        <!-- Unnamed () -->
+        <div id="u45413" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u45414" class="ax_default _图片">
+        <img id="u45414_img" class="img " src="images/undo_and_redo/u45414.png"/>
+        <!-- Unnamed () -->
+        <div id="u45415" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Paragraph) -->
+      <div id="u45416" class="ax_default _文本段落">
+        <img id="u45416_img" class="img " src="images/loading/u45312.png"/>
+        <!-- Unnamed () -->
+        <div id="u45417" class="text">
+          <p><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;">很多的应用都允许用户通过摇晃设备来撤销或是重做某个操作，比如打字或是删除。当该撤销和重做通过摇晃被触发时，会出现一个提示框，询问用户是要撤销（重做）操作还是什么都不执行。</span></p><p><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;"><br></span></p><p><span style="font-family:'MicrosoftYaHei-Bold', '微软雅黑 Negreta', '微软雅黑 Normal', '微软雅黑';font-weight:700;color:#FFAF3F;">简明扼要地描述将要被撤销或是重做的操作（Briefly and precisely describe the operation to be undone or redone.&nbsp; ）。</span><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;">撤销和重做的提示框标题会自动地包含“撤销”或是“重做”这样的前缀（以及后面的空格）。你需要在前缀后面提供额外的一两个词语用来形容什么会被撤销或是重做。比如，你可以创建一个提示框标题叫做“撤销命名”或者“重做地址更改”。</span></p><p><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;"><br></span></p><p><span style="font-family:'MicrosoftYaHei-Bold', '微软雅黑 Negreta', '微软雅黑 Normal', '微软雅黑';font-weight:700;color:#FFAF3F;">如果你已经把摇晃手势用来撤销和重做，那么就不要把它用于其它操作（If you use the shake gesture for undo and redo, don’t use it for other actions. ）。</span><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;">即使你能通过编程赋予摇晃手势不同的意义，但同时你也冒着很大的风险使用户困惑，并让你的应用变得不可预知。</span></p><p><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;"><br></span></p><p><span style="font-family:'MicrosoftYaHei-Bold', '微软雅黑 Negreta', '微软雅黑 Normal', '微软雅黑';font-weight:700;color:#FFAF3F;">节制地使用撤销和重做按钮（Provide undo and redo buttons sparingly. ）。</span><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;">如果在应用中为执行相同任务提供多种途径便会让人困惑。如果你的应用真的需要专门的撤销和重做按钮，那么请使用系统提供的标准按钮并且把它们放在一个符合预期的位置，比如导航栏。</span></p><p><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;"><br></span></p><p><span style="font-family:'MicrosoftYaHei-Bold', '微软雅黑 Negreta', '微软雅黑 Normal', '微软雅黑';font-weight:700;color:#FFAF3F;">只在当前情境中执行撤销和重做操作（Perform undo and redo operations in the current context only. ）。</span><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;">撤销和重做必须对当前的（而非之前的）情境有明确直接的影响。</span></p><p><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;"><br></span></p><p><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;">了解更多实现方法，请参阅</span><a id="u45418" class="link"><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#0000FF;">Undo Architecture</span></a><span style="font-family:'MicrosoftYaHei', '微软雅黑 Normal', '微软雅黑';font-weight:400;color:#FFFFFF;">。</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
